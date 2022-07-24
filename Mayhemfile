@@ -1,12 +1,9 @@
 # Namespaced project name that the target belongs to
-project: bmwtsn098/linux-logo
+project: linux-logo
 
 # Target name (should be unique within the project)
 target: linux-logo
 
-# Base image to run the binary in.
-image: ghcr.io/bmwtsn098/linux-logo:latest
-duration: 300
 # List of commands used to test the target
 cmds:
 
